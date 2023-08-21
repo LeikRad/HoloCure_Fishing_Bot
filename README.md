@@ -22,7 +22,7 @@ I only tested this out on windows, but if the demand is high I'll look into maki
 
 - Download the files either through the release or git clone
 - If you downloaded it, extract into a folder
-- Execute "pip install -r requirements.txt"
+- Execute "pip install -r requirements.txt" with a terminal in the extracted folder
 - Edit the "# settings" part of main.py with your keybindings (if you're not sure what to type, take a look [here](https://pyautogui.readthedocs.io/en/latest/keyboard.html) or google)
 - Open the Game
 - Go to Holohouse
