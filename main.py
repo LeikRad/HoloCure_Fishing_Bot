@@ -47,8 +47,9 @@ def main():
         while (True):
             sct_img = sct.grab(monitor)
             # save image
-            cv2.imshow("OpenCV/Numpy normal", np.array(sct_img))
-            cv2.waitKey(1)
+            if debug:
+                cv2.imshow("OpenCV/Numpy normal", np.array(sct_img))
+                cv2.waitKey(1)
 
             pixel1 = sct_img.pixel(41, 0)
             pixel2 = sct_img.pixel(42, 63)
