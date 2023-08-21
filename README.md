@@ -15,26 +15,27 @@ I only tested this out on windows, but if the demand is high I'll look into maki
 
 ## Pre-requeriments:
 
-- Python
-- The game must be windowed
+- Python.
+- The game must be windowed in 1280x720 resolution.
   
 ## Setup:
 
-- Download the files either through the release or git clone
-- If you downloaded it, extract into a folder
-- Execute "pip install -r requirements.txt" with a terminal in the extracted folder
-- Edit the "# settings" part of main.py with your keybindings (if you're not sure what to type, take a look [here](https://pyautogui.readthedocs.io/en/latest/keyboard.html) or google)
-- Open the Game
-- Go to Holohouse
-- Go near lake
-- run "python main.py"
+- Download the files either through the release or git clone.
+- If you downloaded it, extract into a folder.
+- Execute "pip install -r requirements.txt" with a terminal in the extracted folder.
+- Edit the "# settings" part of main.py with your keybindings (if you're not sure what to type, take a look [here](https://pyautogui.readthedocs.io/en/latest/keyboard.html) or google).
+- Open the Game.
+- Go to Holohouse.
+- Go near lake.
+- run "python main.py".
 
-The script will automatically move the window of the game to the top left corner of your screen (because that's the easiest way to make it slightly universal) and will start spamming your action key to start the fishing minigame, after that it should do the rest on its own untill you stop the script with ctrl + c in the terminal.
+The script will automatically move the window of the game to the top left corner of your screen ( because that's the easiest way to make it slightly universal ) and will start spamming your action key to start the fishing minigame, after that it should do the rest on its own untill you stop the script with ctrl + c in the terminal.
 
-Be careful of doing anything that isnt stopping the script because ***IT WILL KEEP SENDING KEYSTROKES***
+Be careful of doing anything that isnt stopping the script because ***IT WILL KEEP SENDING KEYSTROKES***.
 
-Any problems feel free to contact me, ill try to respond but I don't promise anything.
 
 # Attribution
-- Thank you to [Kay (@holocuredev)](https://twitter.com/holocuredev) and the team for making the game
-- Thank you to [u/flightsin](https://www.reddit.com/r/holocure/comments/15vhz6l/so_i_wrote_a_bot_that_plays_the_fishing_minigame) for posting the original showcase
+- Thank you to [Kay (@holocuredev)](https://twitter.com/holocuredev) and the team for making the game.
+- Thank you to [u/flightsin](https://www.reddit.com/r/holocure/comments/15vhz6l/so_i_wrote_a_bot_that_plays_the_fishing_minigame) for posting the original showcase.
+
+Any problems feel free to contact me, ill try to respond but I don't promise anything.
